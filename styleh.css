@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+    background: #eef1f5;
+}
+
+/* NAVBAR */
+.navbar {
+    width: 100%;
+    background: #2c3e50;
+    color: white;
+    padding: 15px 20px;
+    position: fixed;
+    top: 0;
+}
+
+.navbar .logo {
+    margin: 0;
+	text-align:center;
+
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active {
+    text-decoration: underline;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 180px;
+    background: #34495e;
+    height: 100vh;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    padding-top: 30px;
+}
+
+.sidebar a {
+    display: block;
+    padding: 12px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.sidebar a:hover {
+    background: #2c3e50;
+}
+
+/* CONTENT AREA */
+.content {
+    margin-left: 200px;
+    margin-right: 20px;
+	background-image:url("ww.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+    margin-top: 62px;
+    padding: 20px;
+	height:670px;
+    box-shadow: 0px 0px 10px #aaa;}
+
+ h1{
+color:white;
+	text-align:center;
+
+
+}
+
+.content p {
+    color:white;
+	text-align:center;
+
+}
+
+.btn {
+    margin-top: 15px;
+    width: 200px;
+    padding: 12px;
+    background: #2980b9;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    background: #1f6690;
+}
+
+/* FOOTER */
+footer {
+    font-size: 18px;
+    text-align: center;
+    color: #666;
+	background-color:khaki;
+}

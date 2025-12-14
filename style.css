@@ -1,0 +1,52 @@
+body {
+    background: #eef1f5;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.container {
+    width: 400px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #aaa;	
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 6px 0;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.btn:hover {
+    background: #2980b9;
+}
